@@ -1,0 +1,9 @@
+vlib work
+vlog -f sourcefile.txt
+vsim -voptargs=+accs work.UART_RX_TB
+add wave *
+add wave -position insertpoint  \
+sim:/UART_RX_TB/DUT/U0_FSM/current_state
+add wave -position insertpoint  \
+sim:/UART_RX_TB/DUT/U0_FSM/sampled_bit
+run -all

@@ -1,0 +1,7 @@
+UART_RX_datasampling.v
+UART_RX_deserializer.v
+UART_RX_edgebitcounter.v
+UART_RX_FSM.v
+UART_RX_RTL.v
+UART_RX_TB.v
+
